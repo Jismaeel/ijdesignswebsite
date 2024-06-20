@@ -3,6 +3,7 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   RouterProvider,
+  BrowserRouter,
 } from "react-router-dom";
 
 import MainLayout from "./layout/MainLayout";
@@ -15,11 +16,15 @@ const App = () => {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<MainLayout />}>
+      <BrowserRouter
+        basename="/ijdesignswebsite/"
+        path="/"
+        element={<MainLayout />}
+      >
         <Route index element={<HomePage />} />
         <Route path="/pricing" element={<PriceingPage />} />
         <Route path="*" element={<NotFound />} />
-      </Route>
+      </BrowserRouter>
     )
   );
 
