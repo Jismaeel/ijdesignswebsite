@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const HomeButton = ({ text }) => {
   return (
     <>
-      <div className="mx-auto max-w-screen-sm text-center py-10">
+      <div className="mx-auto max-w-screen-sm text-center pb-10">
         <Link
           to="/projects"
           type="button"

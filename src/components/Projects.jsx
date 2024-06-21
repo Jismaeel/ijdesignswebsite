@@ -6,7 +6,7 @@ import img3 from "../img/mpddsa-02.webp";
 const Projects = () => {
   return (
     <>
-      <div className="bg-gradient-to-b from-90% from-gray-900 py-20">
+      <div className="bg-gray-900 pt-20 pb-4">
         <h1 className="text-3xl font-bold text-white text-center py-10">
           Projects we've done
         </h1>

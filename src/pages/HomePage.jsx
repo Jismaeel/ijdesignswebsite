@@ -5,17 +5,17 @@ import FacebookFeed from "../components/FacebookFeed";
 import Projects from "../components/Projects";
 import HomeButton from "../components/HomeButton";
 
-
-
 const HomePage = () => {
   return (
     <>
-      <HeroSection />
-      <Projects />
-      <HomeButton text={" View more"} />
-      <FacebookFeed />
-      <Testamonials />
-      <Contactus />
+      <div className="bg-gray-900">
+        <HeroSection />
+        <Projects />
+        <HomeButton text={" View more"} />
+        <FacebookFeed />
+        <Testamonials />
+        <Contactus />
+      </div>
     </>
   );
 };

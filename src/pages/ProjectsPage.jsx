@@ -9,11 +9,31 @@ import img6 from "../img/p7.webp";
 import homepage from "../img/homepage.jpg";
 import homepage2 from "../img/reactjobs.jpg";
 import homepage3 from "../img/tasktracker.jpg";
+import { Link } from "react-router-dom";
 
 const ProjectsPage = () => {
   return (
     <>
       <div className="bg-gray-900">
+        <Link to="/" className="hidden lg:block md:block px-4">
+          <svg
+            className="w-[48px] rounded-md h-[48px] text-gray-800 hover:bg-slate-800"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="white"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M5 12h14M5 12l4-4m-4 4 4 4"
+            />
+          </svg>
+        </Link>
         <h1 className="text-3xl font-bold text-white text-center py-4">
           Browse through our Projects
         </h1>

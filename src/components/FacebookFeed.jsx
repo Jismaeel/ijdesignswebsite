@@ -31,7 +31,7 @@ const FacebookFeed = () => {
   }, []);
 
   return (
-    <div ref={fbContainerRef} className="w-full max-w-lg mx-auto py-5">
+    <div ref={fbContainerRef} className="w-full max-w-lg mx-auto py-5 bg-gray-900">
       <div
         className="fb-page"
         data-href="https://www.facebook.com/profile.php?id=100083950251634&mibextid=ZbWKwL"
