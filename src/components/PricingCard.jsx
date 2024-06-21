@@ -1,7 +1,7 @@
 const PricingCard = ({ title, price, discription, addItems1 ,addItems2 ,addItems3 }) => {
   return (
     <>
-      <div className="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg border  shadow border-gray-600 xl:p-8 bg-gray-800 text-white">
+      <div className="flex flex-col p-6 mx-auto w-full text-center rounded-lg border shadow border-gray-600 xl:p-8 bg-gray-800 text-white">
         <h3 className="mb-4 text-2xl font-semibold">{title}</h3>
         <p className="font-light sm:text-lg text-gray-400">
           {discription}
