@@ -1,7 +1,7 @@
 {
-  "name": "ijdesignswebsite",
   "homepage": "https://jismaeel.github.io/ijdesignswebsite/",
-  "private": false,
+  "name": "ijdesignswebsite",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
