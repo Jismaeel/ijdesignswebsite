@@ -11,7 +11,7 @@ const App = () => {
     <BrowserRouter >
       <Routes>
         <Route path="/" element={<MainLayout />}>
-          <Route index basename="/ijdesignswebsite/" element={<HomePage />} />
+          <Route index basename="/" element={<HomePage />} />
           <Route path="/pricing" element={<PriceingPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="*" element={<NotFound />} />
