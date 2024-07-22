@@ -8,10 +8,10 @@ import ProjectsPage from "./pages/ProjectsPage";
 
 const App = () => {
   return (
-    <BrowserRouter >
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<MainLayout />}>
-          <Route index basename="/" element={<HomePage />} />
+        <Route path="/" basename="/ijdesignswebsite/" element={<MainLayout />}>
+          <Route index element={<HomePage />} />
           <Route path="/pricing" element={<PriceingPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="*" element={<NotFound />} />
