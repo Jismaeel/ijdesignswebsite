@@ -8,7 +8,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/ijdesignswebsite/">
+    <BrowserRouter basename="/ijdesigns.online/">
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<HomePage />} />
